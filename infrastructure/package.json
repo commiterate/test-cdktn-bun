@@ -1,0 +1,18 @@
+{
+	"name": "test-cdktn-bun",
+	"private": true,
+	"type": "module",
+	"dependencies": {
+		"@cdktn/provider-aws": "^23.6.0",
+		"cdktn": "^0.23.0-pre.17",
+		"confbox": "^0.2.2",
+		"constructs": "^10.4.2"
+	},
+	"devDependencies": {
+		"@tsconfig/bun": "^1.0.8",
+		"@tsconfig/strictest": "^2.0.6",
+		"@types/node": "^22.18.6",
+		"cdktn-cli": "^0.23.0-pre.17",
+		"typescript": "^5.9.2"
+	}
+}

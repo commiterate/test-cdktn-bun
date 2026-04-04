@@ -1,0 +1,8 @@
+{
+	"app": "mkdir --parents build && bun run --bun src/main.ts",
+	"language": "typescript",
+	"output": "build/cdk.out",
+	"codeMakerOutput": "build/.gen",
+	"sendCrashReports": false,
+	"projectId": "964ad1f0-5d4b-49d9-ac86-446ac8e20987"
+}

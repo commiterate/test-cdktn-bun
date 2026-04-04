@@ -1,0 +1,37 @@
+#
+# Treefmt configuration.
+#
+# https://treefmt.com/latest/getting-started/configure
+#
+
+[formatter.nixfmt]
+command = "nixfmt"
+includes = [
+	"*.nix"
+]
+
+[formatter.oxfmt]
+command = "oxfmt"
+excludes = []
+includes = [
+	"*.cjs",
+	"*.css",
+	"*.graphql",
+	"*.hbs",
+	"*.html",
+	"*.js",
+	"*.json",
+	"*.json5",
+	"*.jsonc",
+	"*.jsx",
+	"*.md",
+	"*.mjs",
+	"*.mustache",
+	"*.scss",
+	"*.ts",
+	"*.tsx",
+	"*.vue",
+	"*.yaml",
+	"*.yml"
+]
+options = []
